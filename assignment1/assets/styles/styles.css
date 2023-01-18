@@ -81,6 +81,13 @@ textarea:focus, input:focus{
 .chat{
     padding-left: 15%;
 }
+.chat-block{
+    display: block;
+    height: 100%;
+}
+.hidden{
+    display: none;
+}
 
 .chat__comment{
     height: 100%;
@@ -102,12 +109,14 @@ grid-row: 1/2;
     grid-area: comment__username;
 grid-column: 2/3;
 grid-row: 1/2;
+align-self: center;
 }
 .comment__content{
     grid-area: comment__content;
 grid-column: 1/span 2;
 grid-row: 2/3;
 border-top: 1.5px dashed #c0c0c0;
+padding-top: 3%;
 }
 .avatar{
     width: 100%;
